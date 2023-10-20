@@ -13,16 +13,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Bar Items"
+        title = "main"
         view.backgroundColor = .systemBackground
 
-        
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
-        view.addSubview(button)
-        button.center = view.center
-        button.backgroundColor = .systemMint
-        button.setTitle("Go to View 2", for: .normal)
-        button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+        mybutton1.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         
         
         
