@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         title = "main"
         view.backgroundColor = .systemBackground
 
-        mybutton1.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         
         
         
@@ -35,6 +34,6 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
         
     }
-       
+   
     }
 
