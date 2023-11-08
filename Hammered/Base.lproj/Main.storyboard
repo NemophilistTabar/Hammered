@@ -106,6 +106,68 @@
             <point key="canvasLocation" x="1735" y="-449"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="6J5-Kq-DJC">
+            <objects>
+                <viewController id="AJY-05-fHP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="raZ-wk-KaN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5CR-oA-5VG">
+                                <rect key="frame" x="71" y="171" width="251" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ûthar the Destined">
+                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Lyo-Cl-u3w" kind="show" id="zYY-66-ygb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rZX-GU-oEP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VNN-By-OZj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="snX-IT-vKm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2905" y="-862"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Kc7-gt-BqQ">
+            <objects>
+                <viewController id="Lyo-Cl-u3w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OKh-jK-h88">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ÛTHAR THE DESTINED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdU-Xz-2y1">
+                                <rect key="frame" x="35" y="49" width="322" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zoK-R7-pUe">
+                                <rect key="frame" x="35" y="226" width="342" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ranged Weapons">
+                                    <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HKH-gg-XjF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BAz-qC-p4b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqt-Av-Byf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3519.8473282442746" y="-1309.1549295774648"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="4fw-YL-7Rr">
             <objects>
                 <viewController id="DJN-Ys-CDY" sceneMemberID="viewController">
@@ -227,6 +289,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Datasheets">
                                     <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="AJY-05-fHP" kind="show" id="g0J-XU-Gf1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vST-HD-YET"/>
